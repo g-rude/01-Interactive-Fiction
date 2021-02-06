@@ -1,0 +1,599 @@
+{
+  "passages": [
+    {
+      "text": "You wake up in an empty hospital room. The lights are off but you can still see everything because of the light underneath the hallway door. You cannot seem to remember anything.\n\n[[Get up and look around the room->Monitors]]\n[[Look for the bathroom->Bathroom]]\n[[Go out to the hallway to look for someone->Hospital Hallway]]\n[[Go back to sleep->Hospital Bed]]",
+      "links": [
+        {
+          "name": "Get up and look around the room",
+          "link": "Monitors",
+          "pid": "2"
+        },
+        {
+          "name": "Look for the bathroom",
+          "link": "Bathroom",
+          "pid": "3"
+        },
+        {
+          "name": "Go out to the hallway to look for someone",
+          "link": "Hospital Hallway",
+          "pid": "4"
+        },
+        {
+          "name": "Go back to sleep",
+          "link": "Hospital Bed",
+          "pid": "5"
+        }
+      ],
+      "name": "Hospital Room",
+      "pid": "1",
+      "position": {
+        "x": "697",
+        "y": "29"
+      }
+    },
+    {
+      "text": "You get out of bed and your attention is immediately drawn to the monitors you can only assume are monitoring your health. You can't understand the monitors very well and the lighting in the room is too poor to be able to read the files next to the monitors.\n\n[[Get back in bed and go back to sleep->Hospital Bed]]\n[[Go to the bathroom->Bathroom]]\n[[Go out to the hallway->Hospital Hallway]]\n[[Sit down at the open computer next to the monitors->Open Computer]]",
+      "links": [
+        {
+          "name": "Get back in bed and go back to sleep",
+          "link": "Hospital Bed",
+          "pid": "5"
+        },
+        {
+          "name": "Go to the bathroom",
+          "link": "Bathroom",
+          "pid": "3"
+        },
+        {
+          "name": "Go out to the hallway",
+          "link": "Hospital Hallway",
+          "pid": "4"
+        },
+        {
+          "name": "Sit down at the open computer next to the monitors",
+          "link": "Open Computer",
+          "pid": "6"
+        }
+      ],
+      "name": "Monitors",
+      "pid": "2",
+      "position": {
+        "x": "275",
+        "y": "168"
+      }
+    },
+    {
+      "text": "You walk in the bathroom and turn the light on. You go over to the sink and look in the mirror. You see the face staring back at you and you know deep down you have no clue who this person is, but he is not you.\n\n[[Rinse your face->Bathroom sink]]\n[[Go out to the hallway->Hospital Hallway]]\n[[Go back to bed->Hospital Bed]]",
+      "links": [
+        {
+          "name": "Rinse your face",
+          "link": "Bathroom sink",
+          "pid": "7"
+        },
+        {
+          "name": "Go out to the hallway",
+          "link": "Hospital Hallway",
+          "pid": "4"
+        },
+        {
+          "name": "Go back to bed",
+          "link": "Hospital Bed",
+          "pid": "5"
+        }
+      ],
+      "name": "Bathroom",
+      "pid": "3",
+      "position": {
+        "x": "559",
+        "y": "153"
+      }
+    },
+    {
+      "text": "You walk out into the a hallway that is just as empty as the room. Or at least you see it that way. You immediately start hearing voices saying you shouldn't be out of bed.\n\n[[Listen to them->Hospital Bed]]\n[[Go left->Lobby]]\n[[Go right->Offices]]",
+      "links": [
+        {
+          "name": "Listen to them",
+          "link": "Hospital Bed",
+          "pid": "5"
+        },
+        {
+          "name": "Go left",
+          "link": "Lobby",
+          "pid": "9"
+        },
+        {
+          "name": "Go right",
+          "link": "Offices",
+          "pid": "10"
+        }
+      ],
+      "name": "Hospital Hallway",
+      "pid": "4",
+      "position": {
+        "x": "913",
+        "y": "156"
+      }
+    },
+    {
+      "text": "You relax back down into the bed, your thoughts racing. Gradually, you begin to drift back to sleep.\n\n[[Fall asleep->Hospital Room]]",
+      "links": [
+        {
+          "name": "Fall asleep",
+          "link": "Hospital Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Hospital Bed",
+      "pid": "5",
+      "position": {
+        "x": "1212",
+        "y": "161"
+      }
+    },
+    {
+      "text": "You immediately open Google to check for any news article that may be linked to you. The first article you see is titled: \"Massive 18 vehicle wreck, 7 confirmed dead.\" You immediately feel sick.\n\n[[Run to the bathroom->Bathroom]] ",
+      "links": [
+        {
+          "name": "Run to the bathroom",
+          "link": "Bathroom",
+          "pid": "3"
+        }
+      ],
+      "name": "Open Computer",
+      "pid": "6",
+      "position": {
+        "x": "133",
+        "y": "346"
+      }
+    },
+    {
+      "text": "You splash some cold water onto your face and feel more alert. You look into the mirror once again and see the face staring back at you is different. Although you still know it is not you, the face does seem familiar.\n\n[[Leave bathroom->Hospital Room (alert)]]",
+      "links": [
+        {
+          "name": "Leave bathroom",
+          "link": "Hospital Room (alert)",
+          "pid": "8"
+        }
+      ],
+      "name": "Bathroom sink",
+      "pid": "7",
+      "position": {
+        "x": "384",
+        "y": "344"
+      }
+    },
+    {
+      "text": "You walk back out into the hospital room only to find a doctor waiting for you. He hands you a cup with a variety of pills and makes you take them. He then asks you to go back to bed and get plenty of rest.\n\n[[Ignore the doctor->Hospital Hallway (alert)]]\n[[Fake taking the pills->Hospital Bed (alert)]]\n[[Listen to the doctor->Hospital Bed]]",
+      "links": [
+        {
+          "name": "Ignore the doctor",
+          "link": "Hospital Hallway (alert)",
+          "pid": "12"
+        },
+        {
+          "name": "Fake taking the pills",
+          "link": "Hospital Bed (alert)",
+          "pid": "13"
+        },
+        {
+          "name": "Listen to the doctor",
+          "link": "Hospital Bed",
+          "pid": "5"
+        }
+      ],
+      "name": "Hospital Room (alert)",
+      "pid": "8",
+      "position": {
+        "x": "287",
+        "y": "525"
+      }
+    },
+    {
+      "text": "You arrive at a large open space that appears to be the lobby of the hospital. While it is yet again empty, you feel something grab you by your shoulders and hear a voice say something unintelligible. You are then guided to a bench by this unknown force.\n\n[[You sit down on the bench->Bench]]",
+      "links": [
+        {
+          "name": "You sit down on the bench",
+          "link": "Bench",
+          "pid": "11"
+        }
+      ],
+      "name": "Lobby",
+      "pid": "9",
+      "position": {
+        "x": "798",
+        "y": "279"
+      }
+    },
+    {
+      "text": "You find yourself in a cramped hallway with many doors, each with some writing you can't read but all with a bright light coming from underneath them.\n\n[[Enter left door->Your doctor's office]]\n[[Enter right door->Right office]]\n[[Enter center door->Center office]]\n[[Go back->Hospital Hallway]]",
+      "links": [
+        {
+          "name": "Enter left door",
+          "link": "Your doctor's office",
+          "pid": "18"
+        },
+        {
+          "name": "Enter right door",
+          "link": "Right office",
+          "pid": "19"
+        },
+        {
+          "name": "Enter center door",
+          "link": "Center office",
+          "pid": "20"
+        },
+        {
+          "name": "Go back",
+          "link": "Hospital Hallway",
+          "pid": "4"
+        }
+      ],
+      "name": "Offices",
+      "pid": "10",
+      "position": {
+        "x": "1205",
+        "y": "289"
+      }
+    },
+    {
+      "text": "You sit down on a bench and begin waiting.\n\n[[Wait->Bench (later)]]",
+      "links": [
+        {
+          "name": "Wait",
+          "link": "Bench (later)",
+          "pid": "25"
+        }
+      ],
+      "name": "Bench",
+      "pid": "11",
+      "position": {
+        "x": "592",
+        "y": "326"
+      }
+    },
+    {
+      "text": "You emerge into the busy hallway and immediately the air seems fresher than your room. There are doctors and nurses everywhere, yet nobody bats an eye when they see you. Out of the corner of your eye, you see something, no, somebody. You feel like you should follow her, but you also feel like the hospital is still bad news despite the \"welcome\" feeling it has.\n\n[[Leave ASAP->Backdoor]]\n[[Find the person->Lobby (crowded)]]",
+      "links": [
+        {
+          "name": "Leave ASAP",
+          "link": "Backdoor",
+          "pid": "26"
+        },
+        {
+          "name": "Find the person",
+          "link": "Lobby (crowded)",
+          "pid": "27"
+        }
+      ],
+      "name": "Hospital Hallway (alert)",
+      "pid": "12",
+      "position": {
+        "x": "135",
+        "y": "679"
+      }
+    },
+    {
+      "text": "You lay back down in the bed with the medicine still in your mouth and pretend to go back to sleep while still paying attention to who is in the room and what they are doing. The pills' bitter taste is spreading through your mouth the longer your are stuck pretending.\n\n[[Endure a little longer->Hospital Room (alone and alert)]]\n[[Spit out the pills->Hospital Room (angry doctor)]]\n[[Swallow the pills->Hospital Bed]] ",
+      "links": [
+        {
+          "name": "Endure a little longer",
+          "link": "Hospital Room (alone and alert)",
+          "pid": "14"
+        },
+        {
+          "name": "Spit out the pills",
+          "link": "Hospital Room (angry doctor)",
+          "pid": "15"
+        },
+        {
+          "name": "Swallow the pills",
+          "link": "Hospital Bed",
+          "pid": "5"
+        }
+      ],
+      "name": "Hospital Bed (alert)",
+      "pid": "13",
+      "position": {
+        "x": "441",
+        "y": "664"
+      }
+    },
+    {
+      "text": "You wait for the doctor to leave, but right before he does, you notice him write something in the file next to the computer monitor. You walk over and open the file only to see a picture of a person who you know is you with the words \"HIGHLY DANGEROUS\" next to it. You start reading through reports of criminal acts you committed yet have no memory of. Your stomach drops as you think to yourself how there is no way you would do any of these things. \n\n[[Put down file->Hospital Room (distraught)]]\n[[Reread file->Hospital Room (confused)]] ",
+      "links": [
+        {
+          "name": "Put down file",
+          "link": "Hospital Room (distraught)",
+          "pid": "28"
+        },
+        {
+          "name": "Reread file",
+          "link": "Hospital Room (confused)",
+          "pid": "29"
+        }
+      ],
+      "name": "Hospital Room (alone and alert)",
+      "pid": "14",
+      "position": {
+        "x": "462",
+        "y": "792"
+      }
+    },
+    {
+      "text": "The doctor notices you spit out the medication and gets visibly angry, quickly notifying security and pulling out a firearm he had hidden under his lab coat and pointing it at you, telling you not to move.\n\n[[Listen to him->Hospital room (full)]]\n[[Charge him->O.R.]]",
+      "links": [
+        {
+          "name": "Listen to him",
+          "link": "Hospital room (full)",
+          "pid": "16"
+        },
+        {
+          "name": "Charge him",
+          "link": "O.R.",
+          "pid": "17"
+        }
+      ],
+      "name": "Hospital Room (angry doctor)",
+      "pid": "15",
+      "position": {
+        "x": "755",
+        "y": "705"
+      }
+    },
+    {
+      "text": "You listen to the doctor, his gun still fixed on you. Less than 30 seconds pass before the room is flooded with heavily armored military men who all aim their rifles at you. The doctor holsters his own weapon and pulls a syringe from his coat, only to inject you with it moments later and tells you to lay back down.\n\n[[Lay down->Hospital Bed]] ",
+      "links": [
+        {
+          "name": "Lay down",
+          "link": "Hospital Bed",
+          "pid": "5"
+        }
+      ],
+      "name": "Hospital room (full)",
+      "pid": "16",
+      "position": {
+        "x": "655",
+        "y": "785"
+      }
+    },
+    {
+      "text": "You stand up slowly out of bed with your hands up while the doctor keeps his aim locked on you. You charge him and he shoots, but that isn't enough to stop you. You keep charging him as he unloads more ammo into you until you ultimately collapse at his feet. You lose consciousness as the hallway door opens and is flooded with heavily armored security guards.\n\nYou are taken to the operation room in an attempt to keep you alive, but after 17 long hours, you pass away on the table.\n\n[[Start over->Hospital Room]] ",
+      "links": [
+        {
+          "name": "Start over",
+          "link": "Hospital Room",
+          "pid": "1"
+        }
+      ],
+      "name": "O.R.",
+      "pid": "17",
+      "position": {
+        "x": "821",
+        "y": "831"
+      }
+    },
+    {
+      "text": "You enter the door to the left, almost as if it was habit and are greeted with a warm smile from a person you finally recognize. This being your primary who, upon seeing visible confusion on you face, offers to sit down and talk with you and calm you down.\n\n[[Sit down->Office chair]]\n[[Go back->Offices]]",
+      "links": [
+        {
+          "name": "Sit down",
+          "link": "Office chair",
+          "pid": "21"
+        },
+        {
+          "name": "Go back",
+          "link": "Offices",
+          "pid": "10"
+        }
+      ],
+      "name": "Your doctor's office",
+      "pid": "18",
+      "position": {
+        "x": "1001",
+        "y": "412"
+      }
+    },
+    {
+      "text": "You open the door to the right office, despite having a terrible feeling in your gut and when you finally see the inside of the office, there is a moment of understanding. This is no office at all.\nAt the center of the room, there is a wooden chair with a table next to it, covered in a multitude of electrodes.\n\n[[Go in->Wooden chair]]",
+      "links": [
+        {
+          "name": "Go in",
+          "link": "Wooden chair",
+          "pid": "24"
+        }
+      ],
+      "name": "Right office",
+      "pid": "19",
+      "position": {
+        "x": "1207",
+        "y": "407"
+      }
+    },
+    {
+      "text": "It turns out its just a cleaning closet.\n\n[[Go back->Offices]] ",
+      "links": [
+        {
+          "name": "Go back",
+          "link": "Offices",
+          "pid": "10"
+        }
+      ],
+      "name": "Center office",
+      "pid": "20",
+      "position": {
+        "x": "1404",
+        "y": "417"
+      }
+    },
+    {
+      "text": "You sit down and are promptly asked what do you want to know. Despite having so many questions just a minute ago, a sense of calm has washed over you and you cannot ask anything despite still knowing nothing.\nAfter a few moments of complete silence, she reaches under her desk, pulls out a file and opens it on her desk only to tell you of a life she claims to be yours, yet you do not remember any of it. After what feels like an eternity, she closes the file and asks what are you going to do now.\n\n[[Accept it->Office chair (calm)]]\n[[Refuse it->Office chair (distraught)]]",
+      "links": [
+        {
+          "name": "Accept it",
+          "link": "Office chair (calm)",
+          "pid": "22"
+        },
+        {
+          "name": "Refuse it",
+          "link": "Office chair (distraught)",
+          "pid": "23"
+        }
+      ],
+      "name": "Office chair",
+      "pid": "21",
+      "position": {
+        "x": "1010",
+        "y": "534"
+      }
+    },
+    {
+      "text": "Despite having no mamories of this former person you were just told of, you come to the conclusion that you were in this hospital for your own safety, and despite your desire to see the outside world, you understand why that won't be possible. You stand up and thank the kind lady for everything, only to collapse a moment later out of pure exhaustion.\n\n[[Start over->Hospital Room]] ",
+      "links": [
+        {
+          "name": "Start over",
+          "link": "Hospital Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Office chair (calm)",
+      "pid": "22",
+      "position": {
+        "x": "1136",
+        "y": "731"
+      }
+    },
+    {
+      "text": "You sit there for a moment before before breaking down. You know deep down the person your primary told you of is you, but you can't accept it because you have no recollection of this past life. She sees you having a meltdown in the chair and walks around the desk to comfort you. As she's by your side, you feel a slight pinch in your leg and hear one last thing before you completely fade:\n\"I'm sorry\"\n\n[[Start over->Hospital Room]] ",
+      "links": [
+        {
+          "name": "Start over",
+          "link": "Hospital Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Office chair (distraught)",
+      "pid": "23",
+      "position": {
+        "x": "1310",
+        "y": "731"
+      }
+    },
+    {
+      "text": "You are urged into the chair by a mysterious force and, without any moment to breathe, you are covered in electrodes, only to black out a moment later.\n\n[[Start over->Hospital Room]] ",
+      "links": [
+        {
+          "name": "Start over",
+          "link": "Hospital Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Wooden chair",
+      "pid": "24",
+      "position": {
+        "x": "1386",
+        "y": "559"
+      }
+    },
+    {
+      "text": "After waiting for a while, you finally see another person who greets you with sincerity. She sits down with you and begins making small talk, and you, who just moments ago didn't know who you were, are able to hold this conversation almost like it's second nature. You talk for a bit before she stands up and says she is going to have to leave because visitation hours are ending soon. You ask her for her name to which she says kindly:\n\"Honey it's me\"\n\n",
+      "name": "Bench (later)",
+      "pid": "25",
+      "position": {
+        "x": "721",
+        "y": "460"
+      }
+    },
+    {
+      "text": "You sneak through the hospital, avoiding anyone wearing a suit for reasons unknown to you other than a gut feeling and you eventually come across a glass door leading outside.\n\n[[Escape->Freedom]]\n[[Look for person->Lobby (crowded)]] ",
+      "links": [
+        {
+          "name": "Escape",
+          "link": "Freedom",
+          "pid": "31"
+        },
+        {
+          "name": "Look for person",
+          "link": "Lobby (crowded)",
+          "pid": "27"
+        }
+      ],
+      "name": "Backdoor",
+      "pid": "26",
+      "position": {
+        "x": "60",
+        "y": "829"
+      }
+    },
+    {
+      "text": "You go the direction you believe you saw the person go and only end up in a very crowded lobby. You keep looking around for the person but cannot find them anywhere. Eventually you give up and realize just how exhausted you are.\n\n[[Sit->Bench]] ",
+      "links": [
+        {
+          "name": "Sit",
+          "link": "Bench",
+          "pid": "11"
+        }
+      ],
+      "name": "Lobby (crowded)",
+      "pid": "27",
+      "position": {
+        "x": "210",
+        "y": "829"
+      }
+    },
+    {
+      "text": "You stand in disbelief over the file. Oblivious to your surroundings, you feel a slight pinch in the side of your neck and everything fades to black.\n\n[[Wake up->Hospital Room]] ",
+      "links": [
+        {
+          "name": "Wake up",
+          "link": "Hospital Room",
+          "pid": "1"
+        }
+      ],
+      "name": "Hospital Room (distraught)",
+      "pid": "28",
+      "position": {
+        "x": "557",
+        "y": "930"
+      }
+    },
+    {
+      "text": "You go back to the front of the file and notice something you didn't before. You have a severe case of multi-personality disorder and should be kept isolated from the outside world as every personality you have is extremely violent except one.\n\n[[Keep reading->Hospital Room (confused2)]] ",
+      "links": [
+        {
+          "name": "Keep reading",
+          "link": "Hospital Room (confused2)",
+          "pid": "30"
+        }
+      ],
+      "name": "Hospital Room (confused)",
+      "pid": "29",
+      "position": {
+        "x": "352",
+        "y": "925"
+      }
+    },
+    {
+      "text": "You keep reading the front page of the file (your profile) and you finally see what the doctor noted.\n\"The nice one was present today, there still appears to be no evident sign of who is the real one.\"",
+      "name": "Hospital Room (confused2)",
+      "pid": "30",
+      "position": {
+        "x": "465",
+        "y": "1054"
+      }
+    },
+    {
+      "text": "You open the door to the outside world and immediately, alarms go off. Without a second thought, you make a run for it and nobody stops you.",
+      "name": "Freedom",
+      "pid": "31",
+      "position": {
+        "x": "60",
+        "y": "979"
+      }
+    }
+  ],
+  "name": "excercise 1C",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.11",
+  "ifid": "3396AE8A-BB1D-4ADD-B82D-E3593706BE5F"
+}
